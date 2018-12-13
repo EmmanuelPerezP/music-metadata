@@ -1,7 +1,7 @@
 import {assert} from "chai";
 import * as mm from "../src";
 
-import * as fs from "fs";
+import * as fs from "graceful-fs";
 import * as path from "path";
 import {SourceStream} from "./util";
 import {ID3v24TagMapper} from "../src/id3v2/ID3v24TagMapper";

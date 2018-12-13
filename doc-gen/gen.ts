@@ -1,5 +1,5 @@
 import * as path from 'path';
-import * as fs from 'fs';
+import * as fs from 'graceful-fs';
 
 import {commonTags} from '../lib/common/GenericTagTypes';
 import {CombinedTagMapper} from '../src/common/CombinedTagMapper';
